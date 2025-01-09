@@ -53,7 +53,7 @@ body {
   background-color: var(--primary-color);
   color: var(--text-color);
   display: block;
-  background-image: url(../images/background-movies-series.png);
+  background-image: url('../images/background-movies-series.png');
   background-size: cover;
   background-position: 0%;
   height: 100vh;
