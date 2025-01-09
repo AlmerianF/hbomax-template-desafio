@@ -399,7 +399,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/hbo-hover_0.webp');
+  background-image: url('assets/images/hbo-hover_0.webp');
   border: solid 2px var(--tertiary-color);
 }
 
@@ -408,7 +408,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/MAX-Hover.webp');
+  background-image: url('assets/images/MAX-Hover.webp');
   border: solid 2px var(--tertiary-color);
 }
 
@@ -417,7 +417,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/DC-Hover.webp');
+  background-image: url('assets/images/DC-Hover.webp');
   border: solid 2px var(--tertiary-color);
 }
 
@@ -426,7 +426,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/WB-Hover.webp');
+  background-image: url('assets/images/WB-Hover.webp');
   border: solid 2px var(--tertiary-color);
 }
 
@@ -435,7 +435,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/CN-Hover.png');
+  background-image: url('assets/images/CN-Hover.png');
   border: solid 2px var(--tertiary-color);
 }
 
@@ -444,7 +444,7 @@ ul {
   object-fit: cover;
   object-position: center;
   transform: scale(1.1);
-  background-image: url('/assets/images/UCL-Hover.webp');
+  background-image: url('assets/images/UCL-Hover.webp');
   border: solid 2px var(--tertiary-color);
 }
 
