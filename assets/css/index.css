@@ -354,6 +354,16 @@ h2 {
   margin-inline-end: 0px;
 }
 
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 ul {
   display: block;
   list-style-type: disc;
@@ -563,11 +573,59 @@ footer {
 
 @media screen and (max-width: 480px) {
   .menu {
-    display: flex;
     flex-direction: column;
-    padding: 32px 24px ;
+    padding: 32px 24px;
     gap: 24px;
   }
+
+  .menu__item--button {
+    margin: 0;
+  }
+
+  .subscription__price {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .subscription__card {
+    padding: 40px;
+    margin: 0;
+  }
+
+  .subscription__description {
+    font-size: 1rem;
+  }
+
+  .subscription__plan {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subscription__goals {
+    padding: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  
+  .footer__link {
+    display: flex;
+    flex-direction: column;
+    margin: 0 14px 16px;
+   
+  }
+
+  .menu__logo-image {
+    width: 100px;
+    height: 16.61px;
+  }
+
+  .header {
+    margin-top: 128px !important;
+  }
+  
 }
 
 @media screen and (max-width: 1200px) {
