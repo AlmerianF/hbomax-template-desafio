@@ -261,3 +261,40 @@ div {
   display: block;
 }
 
+@media screen and (max-width: 480px) {
+  .menu {
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 24px;
+  }
+
+  .menu__item--button {
+    margin: 0;
+  }
+
+  .menu__logo-image {
+    width: 100px;
+    height: 16.61px;
+  }
+
+  .footer__link {
+    display: flex;
+    flex-direction: column;
+    margin: 0 14px 16px;
+
+  }
+
+  .login__actions .button {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  .login__link {
+    margin: 0;
+  }
+
+  .content {
+    height: auto;
+  }
+
+  }
