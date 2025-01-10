@@ -558,6 +558,16 @@ footer {
   .contents__container {
     grid-template-columns: repeat(2, 1fr);
   }
+ 
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px ;
+    gap: 24px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
